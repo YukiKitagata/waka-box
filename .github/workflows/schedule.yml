@@ -15,3 +15,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: 718e4d08fd0183b4a3dc9e923c51171d
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+      - uses: gautamkrishnar/keepalive-workflow@master
